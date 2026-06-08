@@ -1,0 +1,18 @@
+# Build
+build/
+*.o
+*.obj
+*.exe
+gemm
+
+# Profiling artifacts
+*.ncu-rep
+*.nsys-rep
+*.qdrep
+*.sqlite
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+compile_commands.json
